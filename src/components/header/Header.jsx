@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <header>
             <div className='header'>
-                <p className='Foodieland'>Foodieland</p>
+                <p className='Foodieland'>FoooodyLaand</p>
                 <div className='center'>
                     <ul className='headerTexts'>
                     {
