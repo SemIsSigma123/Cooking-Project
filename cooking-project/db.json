@@ -1,0 +1,1238 @@
+{
+  "category": [
+    {
+      "id": "1",
+      "name": "Breakfast",
+      "img": "/Rice_sushi.png",
+      "bg": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)"
+    },
+    {
+      "id": "2",
+      "name": "Vegan",
+      "img": "Vegan.png",
+      "bg": "linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%)"
+    },
+    {
+      "id": "3",
+      "name": "Meat",
+      "img": "/Meat.png",
+      "bg": "linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%)"
+    },
+    {
+      "id": "4",
+      "name": "Dessert",
+      "img": "/Dessert.png",
+      "bg": "linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%)"
+    },
+    {
+      "id": "5",
+      "name": "Lunch",
+      "img": "/Lunch.png",
+      "bg": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
+    },
+    {
+      "id": "6",
+      "name": "Chocolate",
+      "img": "/Chocolate.png",
+      "bg": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)"
+    },
+    {
+      "id": "7",
+      "name": "Snack",
+      "background": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "8",
+      "name": "Fish",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "9",
+      "name": "Healthy",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "10",
+      "name": "Sweet",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "11",
+      "name": "Noodles",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "12",
+      "name": "Western",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "13",
+      "name": "Seafood",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "14",
+      "name": "Eastern",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    },
+    {
+      "id": "15",
+      "name": "Japanese",
+      "background": "linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%)",
+      "img": "/noImage.webp"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Big and Juicy Wagyu Beef Cheeseburger",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Cheeseburger.webp",
+      "time": "30 Minutes",
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "category": 7,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Fresh Lime Roasted Salmon with Ginger Sauce",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Ginger Sauce.webp",
+      "time": "30 Minutes",
+      "category": 8,
+      "like": true,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Strawberry Oatmeal Pancake with Honey Syrup",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Honey Syrup.webp",
+      "time": "30 Minutes",
+      "category": 1,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Fresh and Healthy Mixed Mayonnaise Salad",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Mayonnaise Salad.webp",
+      "time": "30 Minutes",
+      "category": 9,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Chicken Meatballs with Cream Cheese",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Chicken Meatballs.webp",
+      "time": "30 Minutes",
+      "category": 3,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Fruity Pancake with Orange & Blueberry",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Blueberry.webp",
+      "time": "30 Minutes",
+      "category": 10,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "The Best Easy One Pot Chicken and Rice",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Chicken and Rice.webp",
+      "time": "30 Minutes",
+      "category": 7,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "The Creamiest Creamy Chicken and Bacon Pasta",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Bacon Pasta.webp",
+      "time": "30 Minutes",
+      "category": 11,
+      "like": false,
+      "standart": true,
+      "today": false,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Mixed Tropical Fruit Salad with Superfood Boosts",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Superfood Boosts.webp",
+      "time": "30 Minutes",
+      "category": 9,
+      "like": false,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Big and Juicy Wagyu Beef Cheeseburger",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Beef Cheeseburger.webp",
+      "time": "30 Minutes",
+      "category": 12,
+      "like": true,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Healthy Japanese Fried Rice with Asparagus",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Asparagus.webp",
+      "time": "30 Minutes",
+      "category": 9,
+      "like": false,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Cauliflower Walnut Vegetarian Taco Meat",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Vegetarian Taco Meat.webp",
+      "time": "30 Minutes",
+      "category": 14,
+      "like": false,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Mustard Dressing.webp",
+      "time": "30 Minutes",
+      "category": 9,
+      "like": false,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Barbeque Spicy Sandwiches with Chips",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Sandwiches with Chips.webp",
+      "time": "30 Minutes",
+      "category": 7,
+      "like": false,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Firecracker Vegan Lettuce Wraps - Spicy!",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Wraps.webp",
+      "time": "30 Minutes",
+      "category": 13,
+      "like": false,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Chicken Ramen Soup with Mushroom",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "img": "/images/recipes/Soup with Mushroom.webp",
+      "time": "30 Minutes",
+      "category": 15,
+      "like": true,
+      "standart": false,
+      "today": true,
+      "avtor": "John Smith",
+      "avtorImg": "/images/avatar/John.webp",
+      "date": "15 March 2022",
+      "prepTime": "15 Minutes",
+      "cookTime": "15 Minutes",
+      "calories": 219.9,
+      "totalFat": 10.7,
+      "protein": 7.9,
+      "carbohydrates": 22.3,
+      "cholesterol": 37.4,
+      "ingredientsMainDish": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": true
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 4,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 5,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ],
+      "ingredientsSauce": [
+        {
+          "id": 1,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 2,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        },
+        {
+          "id": 3,
+          "name": "Lorem ipsum dolor sit amet",
+          "checked": false
+        }
+      ]
+    }
+  ],
+  "RecipesSec": [
+    {
+      "id": "1",
+      "img": "/MixySalad.png",
+      "p": "Mixed Tropical Fruit Salad with Superfood Boosts",
+      "eats": "Healthy",
+      "like": false
+    },
+    {
+      "id": "2",
+      "img": "/WagyuBeef.png",
+      "p": "Big and Juicy Wagyu Beef Cheeseburger",
+      "eats": "Western",
+      "like": true
+    },
+    {
+      "id": "3",
+      "img": "/EggSalad.png",
+      "p": "Healthy Japanese Fried Rice with Asparagus",
+      "eats": "Healthy",
+      "like": false
+    },
+    {
+      "id": "4",
+      "img": "/Burito.png",
+      "p": "Cauliflower Walnut Vegetarian Taco Meat",
+      "eats": "Eastern",
+      "like": false
+    },
+    {
+      "id": "5",
+      "img": "/FiresSalad.png",
+      "p": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+      "eats": "Healthy",
+      "like": false
+    },
+    {
+      "id": "6",
+      "img": "/TriangleSadwich.png",
+      "p": "Barbeque Spicy Sandwiches with Chips ",
+      "eats": "Snack",
+      "like": false
+    },
+    {
+      "id": "7",
+      "img": "/PepperSalad.png",
+      "p": "Firecracker Vegan Lettuce Wraps - Spicy! ",
+      "eats": "Seafood",
+      "like": false
+    },
+    {
+      "id": "8",
+      "img": "/SpagetiSalad.png",
+      "p": "Chicken Ramen Soup with Mushroom ",
+      "eats": "Japanese",
+      "like": false
+    }
+  ],
+  "blog": [
+    {
+      "id": "1",
+      "img": "/SpagetiSalardSides.png",
+      "h": "Crochet Projects for Noodle Lovers",
+      "lorem": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",
+      "logo": "/TatiLogo.png",
+      "name": "Wade Warren",
+      "date": "12 November 2021"
+    },
+    {
+      "id": "2",
+      "img": "/MixedYogurtFruits.png",
+      "h": "10 Vegetarian Recipes To Eat This Month",
+      "lorem": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",
+      "logo": "/RobertFox.png",
+      "name": "Robert Fox",
+      "date": "12 November 2021"
+    },
+    {
+      "id": "3",
+      "img": "/ManCookingFIREEE.png",
+      "h": "Full Guide to Becoming a Professional Chef",
+      "lorem": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",
+      "logo": "/Dianna.png",
+      "name": "Dianne Russell",
+      "date": "12 November 2021"
+    },
+    {
+      "id": "4",
+      "img": "/CheeseSquare.png",
+      "h": "Simple & Delicious Vegetarian Lasagna",
+      "lorem": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",
+      "logo": "/lessle.png",
+      "name": "Leslie Alexander",
+      "date": "12 November 2021"
+    },
+    {
+      "id": "5",
+      "img": "/SouceRiceSaladPotato.png",
+      "h": "Plantain and Pinto Stew with Aji Verde",
+      "lorem": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",
+      "logo": "/Courtney.png",
+      "name": "Courtney Henry",
+      "date": "12 November 2021"
+    },
+    {
+      "id": "5",
+      "img": "/Cummunications.png",
+      "h": "We’re Hiring a Communications Assistant!",
+      "lorem": "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ",
+      "logo": "/manEatingBuritto.png",
+      "name": "Albert Flores",
+      "date": "12 November 2021"
+    }
+  ]
+}

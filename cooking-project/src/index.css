@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+
+.Foodieland {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px 0px 40px;
+}
+
+.center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.Logos {
+  display: flex;
+  gap: 50px;
+}
+
+.headerTexts {
+  display: flex;
+  gap: 100px;
+  list-style-type: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer1 {
+  position: relative;
+  width: 100%;
+  height: 442px;
+  border-radius: 60px;
+  background: #E7F9FD;
+  justify-self: center;
+
+}
+
+.footer1div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 282px;
+  width: auto;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ToYourInbox {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -4%;
+}
+
+.smallTextInbox {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.enterEmail {
+  width: 480px;
+  height: 80px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  background-color: white;
+}
+
+.EnterEmailtext {
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  padding-left: 15px;
+}
+
+.blackButton {
+  width: 160px;
+  height: 60px;
+  border-radius: 16px;
+  background-color: black;
+  color: white;
+}
+
+.salad1 {
+  position: absolute;
+  top: 15%;
+}
+
+.salad2 {
+  position: absolute;
+  top: 46%;
+  right: 0%;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer2Part1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px;
+}
+
+.foodieland2 {
+  font-family: Lobster;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.footer2Part1part1 {
+  margin-top: 25px;
+}
+
+.Contacting {
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.footer2Part1part2 {
+  display: flex;
+  gap: 25px;
+}
+
+.Contacting {
+  margin-top: 10px;
+}
+
+.© {
+  width: max-content;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -2%;
+}
+
+.images_display_flex {
+  width: 133px;
+  height: 22px;
+  display: flex;
+  gap: 30px;
+}
+
+.footer2Part2 {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

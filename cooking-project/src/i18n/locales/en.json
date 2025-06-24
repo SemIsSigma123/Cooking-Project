@@ -1,0 +1,15 @@
+{
+    "header":{
+        "nav":{
+            "home":"home",
+            "recipes":"recipes",
+            "blog":"blog",
+            "contact":"contact",
+            "about us":"about us"
+        }
+    },
+    "home":{
+        "Categories":"Categories",
+        "ViewAll":"View All Categories"
+    }
+}

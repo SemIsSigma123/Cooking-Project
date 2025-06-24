@@ -1,0 +1,343 @@
+.Main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    padding-top: 7%;
+    padding-bottom: 12%;
+}
+
+.HealthJapFriedRiceDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 1280px;
+    height: 1003px;
+}
+
+.JapaneseFriedRiceText {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 100%;
+    letter-spacing: -4%;
+
+}
+
+.JapanRiceBasicCookSmallDiv {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.JapanRiceBasicCookInfoDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.JohnSmithDiv {
+    padding-right: 30px;
+    border-right: 1px solid;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.JohnSmithSmallDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.JohnSmithText {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    width: max-content;
+}
+
+.March152022 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    width: max-content;
+}
+
+.PREPTIME {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    width: max-content;
+}
+
+.Minuts15 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    width: max-content;
+}
+
+.ChickenForkKnifeDiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.PrintShareBigDiv {
+    display: flex;
+    gap: 30%;
+}
+
+.PrintDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.PrintText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+.ShareDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+}
+
+.ShareText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+}
+
+.BigImgNutrInfo {
+    display: flex;
+    gap: 10%;
+}
+
+.NutritionInfo {
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    background: #E7FAFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.NutInfoHeaderText {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.NutListTexts {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    border-bottom: 1px solid #0000004a;
+    padding-bottom: 10%;
+    display: flex;
+}
+
+.NutListInfo {
+    flex-direction: column;
+    display: flex;
+    padding-top: 10%;
+    gap: 30px;
+}
+
+.NutInfoBottomText {
+    display: flex;
+    padding-top: 7%;
+    font-size: 15px;
+}
+
+.Ingredients {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+}
+
+.IngredientsHeader {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    width: max-content;
+}
+
+.For_main_dish {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    gap: 50px;
+}
+
+.For_main_dish_text {
+    padding-top: 13%;
+    width: max-content;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.BigMainDishCheckMarks {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.MainDishChecked {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: max-content;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+}
+
+.MainDishCheckedText {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-decoration: line-through;
+}
+
+.MainDishCheckMarks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: max-content;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.318);
+}
+
+.MainDishCheckMarkstext {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.IngHeaderMainDishText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.circular-checkbox {
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    border-radius: 50%;
+    border: 2px solid #555;
+    transition: background 0.3s;
+    position: relative;
+}
+
+.circular-checkbox:checked {
+    background-color: black;
+    border-color: black;
+}
+
+.circular-checkbox:checked::after {
+    content: '✔';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.Other_Recipe {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Other_Recipe_SmallDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.OtherRecipesSmallDives {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.Recipe_header {
+    width: max-content;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.Chicken_MeatballText {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -4%;
+}
+
+.ForTheSouceBiggy {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 560px;
+}
+
+.DirectionsSmally {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.FindingNemo {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -2%;
+}
+
+#smsmsmsm{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+#smsmsmsm2{
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+
+.linkingImg{
+    width: 600px;
+    height: 500px;
+}

@@ -1,0 +1,27 @@
+.notification {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  z-index: 60;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  user-select: none;
+}
+
+.notification.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.notification.success {
+  background-color: #22c55e; /* green-500 */
+}
+
+.notification.error {
+  background-color: #ef4444; /* red-500 */
+}

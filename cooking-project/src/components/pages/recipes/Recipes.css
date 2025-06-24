@@ -1,0 +1,55 @@
+.small_recipe_dives {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 40px; */
+    position: relative;
+    height: max-content;
+    width: max-content;
+}
+
+.Recipes_Title_square {
+    width: 100%;
+    display: grid;
+    gap: 40px;
+}
+
+.article-1 {
+    padding: 8%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.RecipesPics {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.pText_recipes {
+    text-align: center;
+    width: 250px;
+}
+
+.Minute_Snack {
+    padding-bottom: 5%;
+}
+
+.react-paginate-css{
+
+    padding-top: 5%;
+    list-style: none;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+.react-paginate-active{
+    border: 1px solid;
+    width: 1%;
+    background-color: rgb(138, 138, 138);
+    color: white;
+}

@@ -1,0 +1,306 @@
+main {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p,
+li {
+    user-select: none;
+}
+
+.CategoriesDiv {
+    padding: 40px 0;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.CateText {
+    width: max-content;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.catediv {
+    display: flex;
+    justify-content: space-between
+}
+
+.AllCategories {
+    width: 200px;
+    height: 60px;
+    border: 0px;
+    border-radius: 16px;
+    background-color: #E7FAFE;
+    cursor: pointer;
+}
+
+
+
+.categories {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+    padding: 40px;
+}
+
+.imgs {
+    width: 100px;
+    height: 100px;
+}
+
+
+.CategoriesTexts {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: center;
+}
+
+.Simple_Tasty_Recipes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SimpleandTastyRecipe {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.yummy_tasty_recipes {
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-align: center;
+}
+
+.RecipesBigtext {
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+.pText_recipes {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -4%;
+}
+
+.Minute_Snack {
+    display: flex;
+    gap: 25px;
+}
+
+.Minute,
+.Snack {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.BigDiv_ChefOwn {
+    height: 597px;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+
+.smallDiv_chefown {
+    width: 30%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.SmallDivHeader {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 100%;
+    letter-spacing: -4%;
+}
+
+.SmallDivText {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.OwnChefButton {
+    background: #000000;
+    width: 180px;
+    height: 60px;
+    border-radius: 16px;
+    color: white;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.InstaBigDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 5%;
+}
+
+.InstaHeader {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    text-align: center;
+}
+
+.InstaHeaderTexts {
+    display: flex;
+    flex-direction: column;
+    width: 840px;
+    gap: 40px;
+}
+
+.InstasmallText {
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.PostsInsta {
+    display: flex;
+    gap: 30px;
+}
+
+.VisitInstaButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 229px;
+    height: 60px;
+    border-radius: 16px;
+    background-color: black;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.RecipeStandartTrue {
+    width: 100%;
+}
+
+.Delicious_Recipe8x {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Delicious_Recipes8x_TextsDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Del_Recip8x_Header {
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -7%;
+}
+
+
+.Recepepepe {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.Recipes_Eight {
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    width: 320px;
+    height: 420px;
+    position: relative;
+}
+
+.p8x {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -4%;
+}
+
+.LikeDiv {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 71%;
+}
+
+.LikeDiv2 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 82%;
+}
+
+.LikeIcon {
+    color: red;
+}

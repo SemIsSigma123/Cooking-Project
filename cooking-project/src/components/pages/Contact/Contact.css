@@ -1,0 +1,97 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: monospace;
+    padding-top: 7%;
+    padding-bottom: 12%;
+}
+
+.MainContact {
+    width: 70%;
+    height: 733px;
+    border-radius: 30px;
+    background: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ButtonName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 16px;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.NameAddress {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.messageInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 16px;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Submit {
+    width: 180px;
+    height: 64px;
+    border-radius: 16px;
+    color: white;
+    background: black;
+}
+
+.Info {
+    padding-top: 4%;
+    gap: 40px;
+}
+
+
+.LikeDiv3 {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.Recipes_Eight2 {
+    padding-top: 5%;
+    position: relative;
+}
+

@@ -1,0 +1,15 @@
+{
+    "header":{
+        "nav":{
+            "home":"տւն-hy",
+            "recipes":"recipes-hy",
+            "blog":"blog-hy",
+            "contact":"contact-hy",
+            "about us":"about us-hy"
+        }
+    },
+    "home":{
+        "Categories":"Կատեգորիաներ",
+        "ViewAll":"Նայիր սաղ կատեգորիաները"
+    }
+}
